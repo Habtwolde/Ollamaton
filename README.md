@@ -352,7 +352,7 @@ This project includes the following third-party libraries:
 - 📖 Check the troubleshooting section above
 - 🐛 Report bugs via GitHub issues
 - 💡 Request features via GitHub issues
-- 📧 Contact: [your-email@example.com]
+- 📧 Contact: [inventorado7@gmail.com]
 
 ---
 
