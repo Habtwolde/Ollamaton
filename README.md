@@ -12,6 +12,12 @@ A universal client that connects Ollama with any MCP (Model Context Protocol) se
 - 📊 **Tool Management**: List, test, and manage MCP tools
 - 💬 **Interactive Chat**: Real-time conversation with tool integration
 
+## Screenshot
+
+![Ollamaton Web Interface](ollamaton_screenshot.png)
+
+*Ollamaton's web interface showing the chat interface with MCP tool integration, settings modal, and responsive design.*
+
 ## Quick Start
 
 ### 1. Install Dependencies
