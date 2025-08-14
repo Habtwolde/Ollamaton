@@ -1,45 +1,10 @@
 {
-  "name": "ollamaton",
+  "name": "weather",
   "version": "1.0.0",
-  "description": "Ollamaton - Universal client that connects Ollama with any MCP (Model Context Protocol) servers",
+  "description": "MCP server that fetches live weather data",
   "type": "module",
-  "main": "main_index.js",
-  "bin": {
-    "ollama-mcp": "./cli.js"
-  },
-  "scripts": {
-    "start": "node main_index.js",
-    "gui": "node web_gui.js",
-    "cli": "node cli.js",
-    "test": "node cli.js test",
-    "init": "node cli.js init"
-  },
-  "keywords": [
-    "ollama",
-    "mcp",
-    "model-context-protocol",
-    "ai",
-    "llm",
-    "tools",
-    "chat",
-    "assistant"
-  ],
-  "author": "Radoslav Lovecky <https://github.com/inventorado>",
-  "license": "MIT",
+  "main": "index.js",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.15.1",
-    "express": "^5.1.0",
-    "ollama": "^0.5.16"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/inventorado/ollamaton.git"
-  },
-  "bugs": {
-    "url": "https://github.com/inventorado/ollamaton/issues"
-  },
-  "homepage": "https://github.com/inventorado/ollamaton#readme"
+    "zod": "^3.23.8"
+  }
 }
